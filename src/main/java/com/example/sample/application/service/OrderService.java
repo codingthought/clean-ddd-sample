@@ -19,6 +19,7 @@ public class OrderService {
         order.store(orderRepository::store);
         // 第二种写法: orderRepository.store(order);
         // todo convert Oder to OrderInfo
+//        order.map(
         return null;
     }
 }
